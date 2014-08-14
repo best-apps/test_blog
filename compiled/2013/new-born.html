@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>你的第一篇博客</title>
+  
+    <meta name="author" content="Firstname Lastname">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css" type="text/css" rel="stylesheet" media="all">
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">���Լ��Ĳ���</a>
+          <ul class="nav">
+            
+              
+
+
+  <li><a href="/archive">Archive</a></li>
+
+
+            
+              
+
+
+  <li><a href="/tags">Tags</a></li>
+
+
+            
+              
+
+
+  <li><a href="/categories">Categories</a></li>
+
+
+            
+              
+
+
+  <li><a href="/pages">Pages</a></li>
+
+
+            
+              
+
+
+  <li><a href="/about">About Me</a></li>
+
+
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+  <h1>你的第一篇博客 </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <h1>感谢你使用Gor编写博客</h1>
+
+<h2>本文位于 posts/first-blog.md , 你可以任意删掉,修改这个文件</h2>
+
+<p>文件开头是当前文章的元数据</p>
+
+<ol>
+<li>date为自动生成, 当然,你可以修改,这是你的自由</li>
+<li>permalink 可以是固定地址,也可以由gor为你自动生成</li>
+<li>categories 就是分类, 可以多个</li>
+<li>tags 同理,多个标签也是很常见的</li>
+</ol>
+
+<p>请确保文件使用UTF8 without BOM编码</p>
+
+<h2>你可以通过执行下面的语句来新建一篇博客:</h2>
+
+<pre><code>gor post 文章标题
+</code></pre>
+
+<h2>编译你的博客,并预览之</h2>
+
+<pre><code>gor compile #编译
+gor http
+</code></pre>
+
+<p>然后打开你的浏览器,访问 <a href="http://127.0.0.1:8080">http://127.0.0.1:8080</a> 来预览</p>
+
+<h2>你将使用Markdown来编写博客</h2>
+
+<p><a href="http://wowubuntu.com/markdown/">Markdown 语法中文版</a> 能让你快速入门其语法</p>
+
+<p>相信<a href="http://markdownpad.com">MarkdownPad</a>或<a href="http://code.google.com/p/liteide/">liteide</a>会是你的编写博客的好帮手</p>
+
+<h2>如果你打算部署到github的pages上</h2>
+
+<ol>
+<li>申请github帐户</li>
+<li>新建一个库 username.github.com 即你的用户名命名的地址</li>
+<li>将compiled目录,作为根路径,提交上去github.com上</li>
+<li>稍等几分钟, 你即可通过 <a href="http://username.github.com">http://username.github.com</a> 访问到</li>
+</ol>
+
+<h2>附上git教程 <a href="http://gitbook.liuhui998.com/">GitBook中文版</a></h2>
+
+<p>一般来说,你只需要几个简单的git命令就足以应付大部分需求(仅示例)</p>
+
+<pre><code>git clone git://github.com/wendal/wendal.net.git
+git add -A
+git commit -m &quot;...&quot;
+git pull
+git push
+</code></pre>
+
+<h2>用gor编写博客将会是一件很开心的事,如果有任何意见或建议,欢迎到 <a href="http://github.com/wendal/gor">gor的官网</a> 提交issue</h2>
+
+<h1>祝你使用愉快</h1>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+          
+          
+            <li class="prev disabled"><a>&larr; Previous</a></li>
+          
+
+            <li><a href="/archive">Archive</a></li>
+
+          
+          
+            <li class="next disabled"><a>Next &rarr;</a>
+          
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    
+<div id="disqus_thread"></div>
+<script>
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2013-02-08</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    
+      <li>
+  <a href="/categories/#Gor-ref">Gor <span>1</span></a>
+</li>
+    
+      <li>
+  <a href="/categories/#Blog-ref">Blog <span>1</span></a>
+</li>
+    
+    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    
+      <li>
+  <a href="/tags/#Gor-ref">Gor <span>1</span></a>
+</li>
+    
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <footer>
+        <p>&copy; Firstname Lastname 2013 
+          with help from <a href="http://github.com/wendal/gor" target="_blank" title="Gor -- Fast Blog">Gor</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+		  and Idea from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+<script src="//cdnjscn.b0.upaiyun.com/libs/prettify/r298/prettify.min.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+
+    
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-123-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>
